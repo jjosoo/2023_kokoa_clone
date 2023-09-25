@@ -1,0 +1,25 @@
+.badge{
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+
+.circle{
+    display: block;
+    background-color: tomato;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+.circle__position{
+    position: relative;
+    top: -20px;
+    left:70px;
+}

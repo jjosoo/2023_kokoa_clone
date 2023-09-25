@@ -27,7 +27,7 @@
   margin-bottom: 25px;
 }
 #login-form input:not([type="submit"]){
-  border-bottom : 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom : var(--border-bottom);
   transition:border-color .5s ease-in-out;
 }
 #login-form input::placeholder{
